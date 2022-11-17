@@ -1,0 +1,66 @@
+.section{
+  display: grid;
+  grid-template-columns: 20% 20% auto 20%;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.startSection{
+  margin: 10px 0;
+  display: grid;
+grid-template-columns: 10% 10%;
+justify-content: center;
+gap: 20px;
+
+}
+.missed, .score, .time, .name, .start ,.reset{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: transparent;
+  align-items: center;
+  }
+
+.name{
+  border: none;
+  letter-spacing: 1rem;
+}
+.tableSection{
+  display: grid;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 50px;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto ;
+  justify-content: space-between;
+  
+}
+.element{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  display: grid;
+  
+}
+.green{
+  background-color: green;
+}
+.none{
+  background-color: transparent;
+}
+.result_none{
+  display: none;
+}
+.result{
+  display: block;
+  background-color: bisque;
+  position: absolute;
+  padding: 20px 40px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  text-align: center;
+}
