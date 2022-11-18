@@ -13,6 +13,6 @@ body {
   height: 100vh;
   background-color: lightblue;
   display: grid;
-  grid-template-rows: 50px auto 80px;
+  grid-template-rows: 50px 440px 80px;
   overflow: hidden;
 }
